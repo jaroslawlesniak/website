@@ -1,0 +1,71 @@
+body {
+    background-color: #fff;
+    font-family: "Roboto";
+}
+
+.navbar {
+    background-color: #fff !important;
+
+    img {
+        max-height: 75px;
+    }
+}
+
+.hero {
+    background-color: #333;
+
+    h1 {
+        color: #fff;
+        width: 90%;
+        max-width: 800px;
+        text-align: center;
+        padding: 250px 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+    }
+}
+
+main {
+    section {
+        padding: 50px 0px;
+
+        p {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 16px;
+        }
+    }
+
+    h2 {
+        color: #AC01D9;
+    }
+}
+
+.portfolio {
+    height: 500px;
+    padding: 75px 10px;
+    
+    img {
+        max-width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &.angular {
+        background-color: #ee0639;
+    }
+
+    &.react {
+        background-color: #3a3e46;
+    }
+
+    &.vue {
+        background-color: #46cf91;
+    }
+}
+
+footer {
+    background-color: #f7f7f7;
+}
