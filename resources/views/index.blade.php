@@ -2,27 +2,94 @@
 
 @section('content')
     <div class="hero">
-        <h1>Tworzenie stron www</h1>
+        <h1>@lang('content.hero-title')</h1>
     </div>
-    <div class="container">
-        <section>
-            <h2>Kilka słów o mnie</h2>
-            <p>Exercitation sint sit cupidatat ipsum aliqua voluptate elit proident nulla pariatur proident. Lorem ut ullamco ea incididunt ea aliquip esse ad laboris. Eiusmod irure consectetur esse magna adipisicing. Nostrud in officia velit velit aliqua. Dolor quis pariatur ad fugiat ad cupidatat reprehenderit velit duis sint laborum.</p>
-        </section>
-        <section>
-            <h2>Portfolio</h2>
-            <p>Exercitation sint sit cupidatat ipsum aliqua voluptate elit proident nulla pariatur proident. Lorem ut ullamco ea incididunt ea aliquip esse ad laboris. Eiusmod irure consectetur esse magna adipisicing. Nostrud in officia velit velit aliqua. Dolor quis pariatur ad fugiat ad cupidatat reprehenderit velit duis sint laborum.</p>
-        </section>
-    </div>
-    <div class="row">
-        <div class="col-md-4 portfolio angular">
-            <img src="assets/angular.svg" alt="">
+    <section>
+        <div class="container">
+            <h2>Technologie webowe</h2>
+            <p>Eu exercitation aliqua cupidatat dolore. Mollit ea est pariatur nisi tempor occaecat. Do magna mollit in nulla laboris dolor tempor amet.</p>        
+            <div class="row">
+                <div class="col-md-4 portfolio">
+                    <img src="assets/html.png" alt="">
+                    <div class="caption">HTML, CSS, JS</div>
+                    <div class="projects">
+                        <span>1</span>
+                        <p>{{ trans_choice('content.projects', 1) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/pure-html">@lang('content.display-projects')</a>
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="assets/craftcms.png" alt="">
+                    <div class="caption">CraftCMS</div>
+                    <div class="projects">
+                        <span>2</span>
+                        <p>{{ trans_choice('content.projects', 2) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/craftcms">@lang('content.display-projects')</a>
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="assets/laravel.png" alt="">
+                    <div class="caption">Laravel</div>
+                    <div class="projects">
+                        <span>1</span>
+                        <p>{{ trans_choice('content.projects', 1) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/laravel">@lang('content.display-projects')</a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 portfolio react">
-            <img src="assets/react.png" alt="">
+    </section>
+    <section>
+        <div class="container">
+            <h2>Aplikacje desktopowe i mobilne</h2>
+            <p>Labore quis laborum adipisicing anim dolore commodo aute commodo magna ullamco. Enim est Lorem eu Lorem mollit reprehenderit elit. Irure sunt id fugiat magna sit veniam sunt esse culpa culpa ea. Exercitation sit pariatur mollit minim dolore amet adipisicing quis tempor reprehenderit consectetur Lorem aliqua. Ut cupidatat aliqua do minim et incididunt. Incididunt sint aute sit fugiat. Cillum consectetur Lorem reprehenderit amet sint qui.</p> 
+            <div class="row">
+                <div class="col-md-4 portfolio">
+                    <img src="assets/electron.png" alt="">
+                    <div class="caption">Electron</div>
+                    <div class="projects">
+                        <span>1</span>
+                        <p>{{ trans_choice('content.projects', 1) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/electron">@lang('content.display-projects')</a>
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="assets/ionic.jpg" alt="">
+                    <div class="caption">Ionic</div>
+                    <div class="projects">
+                        <span>1</span>
+                        <p>{{ trans_choice('content.projects', 1) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/ionic">@lang('content.display-projects')</a>
+                </div>      
+            </div>
         </div>
-        <div class="col-md-4 portfolio vue">
-            <img src="assets/vue.png" alt="">
+    </section>
+    <section>
+       <div class="container">
+            <h2>Projekty graficzne</h2>
+            <p>Consectetur proident magna aliquip voluptate. Dolor ad do quis labore amet enim culpa mollit quis incididunt magna. Enim et et ipsum sit amet mollit do ad occaecat cupidatat irure.</p>
+            <div class="row">
+                <div class="col-md-4 portfolio">
+                    <img src="assets/electron.png" alt="">
+                    <div class="caption">Wizytówki</div>
+                    <div class="projects">
+                        <span>1</span>
+                        <p>{{ trans_choice('content.projects', 1) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/electron">@lang('content.display-projects')</a>
+                </div>
+                <div class="col-md-4 portfolio">
+                    <img src="assets/ionic.jpg" alt="">
+                    <div class="caption">Banery</div>
+                    <div class="projects">
+                        <span>1</span>
+                        <p>{{ trans_choice('content.projects', 1) }}</p>
+                    </div>
+                    <a href="/{{ Config::get('app.locale') }}/ionic">@lang('content.display-projects')</a>
+                </div>      
+            </div>
         </div>
-    </div>
+    </section>
+    _contact
 @endsection

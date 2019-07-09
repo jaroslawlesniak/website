@@ -11103,6 +11103,11 @@ a.text-dark:focus {
 body {
   background-color: #fff;
   font-family: "Roboto";
+  overflow-x: hidden;
+}
+
+header {
+  box-shadow: 0px 0px 5px #888;
 }
 
 .navbar {
@@ -11118,6 +11123,7 @@ body {
 }
 
 .hero h1 {
+  margin: 0;
   color: #fff;
   width: 90%;
   max-width: 800px;
@@ -11129,22 +11135,9 @@ body {
   font-size: 40px;
 }
 
-main section {
-  padding: 50px 0px;
-}
-
-main section p {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-}
-
-main h2 {
-  color: #AC01D9;
-}
-
 .portfolio {
-  height: 500px;
   padding: 75px 10px;
+  text-align: center;
 }
 
 .portfolio img {
@@ -11154,19 +11147,59 @@ main h2 {
   margin-right: auto;
 }
 
-.portfolio.angular {
-  background-color: #ee0639;
+.portfolio .caption {
+  font-size: 25px;
 }
 
-.portfolio.react {
-  background-color: #3a3e46;
+.portfolio .projects {
+  margin: 50px 0px;
 }
 
-.portfolio.vue {
-  background-color: #46cf91;
+.portfolio span,
+.portfolio p {
+  display: block;
+  color: #636b6f;
+  font-size: 25px;
+}
+
+.portfolio span {
+  font-size: 45px;
+  color: teal;
+}
+
+.portfolio a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  background-color: teal;
+  padding: 10px 25px;
+}
+
+.portfolio a:hover {
+  background-color: #003434;
+}
+
+main h2 {
+  color: teal;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+main p {
+  color: #636b6f;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+main section:nth-child(odd) {
+  background-color: #f9f9f9;
+  padding: 50px 0px;
 }
 
 footer {
   background-color: #f7f7f7;
+  padding: 50px 0px;
 }
 
