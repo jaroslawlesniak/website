@@ -6,7 +6,7 @@
     </div>
     <section>
         <div class="container">
-            <h2>Technologie webowe</h2>
+            <h2>@lang('content.web')</h2>
             <p>Eu exercitation aliqua cupidatat dolore. Mollit ea est pariatur nisi tempor occaecat. Do magna mollit in nulla laboris dolor tempor amet.</p>        
             <div class="row">
                 <div class="col-md-4 portfolio">
@@ -16,7 +16,7 @@
                         <span>1</span>
                         <p>{{ trans_choice('content.projects', 1) }}</p>
                     </div>
-                    <a href="/{{ Config::get('app.locale') }}/pure-html">@lang('content.display-projects')</a>
+                    <a href="/{{ Config::get('app.locale') }}/html">@lang('content.display-projects')</a>
                 </div>
                 <div class="col-md-4 portfolio">
                     <img src="assets/craftcms.png" alt="">
@@ -41,7 +41,7 @@
     </section>
     <section>
         <div class="container">
-            <h2>Aplikacje desktopowe i mobilne</h2>
+            <h2>@lang('content.desktop')</h2>
             <p>Labore quis laborum adipisicing anim dolore commodo aute commodo magna ullamco. Enim est Lorem eu Lorem mollit reprehenderit elit. Irure sunt id fugiat magna sit veniam sunt esse culpa culpa ea. Exercitation sit pariatur mollit minim dolore amet adipisicing quis tempor reprehenderit consectetur Lorem aliqua. Ut cupidatat aliqua do minim et incididunt. Incididunt sint aute sit fugiat. Cillum consectetur Lorem reprehenderit amet sint qui.</p> 
             <div class="row">
                 <div class="col-md-4 portfolio">
@@ -67,7 +67,7 @@
     </section>
     <section>
        <div class="container">
-            <h2>Projekty graficzne</h2>
+            <h2>@lang('content.graphic')</h2>
             <p>Consectetur proident magna aliquip voluptate. Dolor ad do quis labore amet enim culpa mollit quis incididunt magna. Enim et et ipsum sit amet mollit do ad occaecat cupidatat irure.</p>
             <div class="row">
                 <div class="col-md-4 portfolio">

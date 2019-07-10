@@ -20,3 +20,8 @@ Route::get('/{locale}', function($locale) {
     App::setLocale($locale);
     return view('index');
 });
+
+Route::get('/{locale}/{category}', function($locale, $category) {
+    App::setLocale($locale);
+    return view('category', ['category' => $category]);
+});

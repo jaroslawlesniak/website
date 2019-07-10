@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ Config::get('app.locale') }}">
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/6b0421a75d.js"></script>
