@@ -21,7 +21,7 @@ Route::get('/{locale}', function($locale) {
     return view('index');
 });
 
-Route::get('/{locale}/{category}', function($locale, $category) {
+Route::get('/{locale}/{project}', function($locale, $project) {
     App::setLocale($locale);
-    return view('category', ['category' => $category]);
+    return view('category', ['category' => $project]);
 });
