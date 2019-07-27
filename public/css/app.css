@@ -11129,6 +11129,20 @@ header {
   color: #bbb !important;
 }
 
+.navbar .language .dropdown-menu {
+  width: auto;
+  left: -50px;
+}
+
+.navbar .language .dropdown-menu .dropdown-item::before {
+  content: none;
+}
+
+.navbar .language img {
+  height: 10px;
+  margin-right: 10px;
+}
+
 .dropdown-menu {
   width: 300px;
 }
@@ -11203,12 +11217,12 @@ header {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   cursor: pointer;
-  position: relative;
-  top: 0px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .hero .wrapper img:hover {
-  top: -10px;
+  background-color: #e2e2e2;
 }
 
 main h2 {

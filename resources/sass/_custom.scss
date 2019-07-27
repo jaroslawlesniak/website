@@ -23,6 +23,24 @@ header {
             color: #bbb !important;
         }
     }
+
+    .language {
+        .dropdown-menu {
+            width: auto;
+            left: -50px;
+
+            .dropdown-item {
+                &::before {
+                    content: none;
+                }
+            }
+        }
+
+        img {
+            height: 10px;
+            margin-right: 10px;
+        }
+    }
 }
 
 .dropdown-menu {
@@ -34,7 +52,7 @@ header {
         margin: 0px;
     }
 
-    .dropdown-item{
+    .dropdown-item {
         color: #888;
 
         &:hover {
@@ -96,11 +114,11 @@ header {
             padding: 10px;
             transition: all .2s linear;
             cursor: pointer;
-            position: relative;
-            top: 0px;
+            background-color: #fff;
+            border-radius: 10px;
 
             &:hover {
-                top: -10px;
+                background-color: #e2e2e2;
             }
         }
     }
