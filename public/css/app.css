@@ -11112,6 +11112,7 @@ header {
 
 .navbar {
   background-color: #24292e !important;
+  padding: 10px 100px;
 }
 
 .navbar img {
@@ -11123,6 +11124,7 @@ header {
   margin: 15px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 .navbar .nav-link:hover {

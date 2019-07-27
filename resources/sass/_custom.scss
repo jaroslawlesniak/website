@@ -10,6 +10,8 @@ header {
 
 .navbar {
     background-color: #24292e !important;
+    padding: 10px 100px;
+
     img {
         max-height: 75px;
     }
@@ -18,6 +20,7 @@ header {
         color: #fff !important;
         margin: 15px;
         transition: all .3s linear;
+        cursor: pointer;
 
         &:hover {
             color: #bbb !important;
