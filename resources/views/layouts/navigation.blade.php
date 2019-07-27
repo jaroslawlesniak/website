@@ -1,7 +1,7 @@
 {{-- <div class="container"> --}}
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="/assets/angular.png">
+            <img src="/assets/frameworks/angular.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-left">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ URL::to('/') }}">@lang('ui.homepage')</a>
+                    <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.homepage')</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@lang('ui.web-apps')</a>
@@ -19,7 +19,7 @@
                     <a class="dropdown-item" href="">@lang('ui.web-apps.shops')<span title="@lang('ui.completed-projects')">0</span></a>
                     <a class="dropdown-item" href="">@lang('ui.web-apps.apps')<span title="@lang('ui.completed-projects')">0</span></a>
                     <p>@lang('ui.web-tech.title')</p>
-                    <a class="dropdown-item" href="#">CraftCMS<span title="@lang('ui.completed-projects')">2</span></a>
+                    <a class="dropdown-item" href="/{{ App::getLocale() }}/craftcms">CraftCMS<span title="@lang('ui.completed-projects')">2</span></a>
                     <a class="dropdown-item" href="#">Laravel<span title="@lang('ui.completed-projects')">1</span></a>
                     <a class="dropdown-item" href="#">Angular<span title="@lang('ui.completed-projects')">0</span></a>
                     <a class="dropdown-item" href="#">Wordpress<span title="@lang('ui.completed-projects')">1</span></a>

@@ -85,7 +85,7 @@ header {
 
 .hero {
     background: url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg), #2b3137;
-
+    
     .container {
         padding: 150px 15px;
     }
@@ -102,6 +102,23 @@ header {
     p {
         color: hsla(0,0%,100%,.6);
         font-size: 22px;
+    }
+
+    .col-md-12 {
+        text-align: center;
+
+        h1, p {
+            text-align: center;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;
+        }
+
+        > img {
+            height: 150px;
+            display: inline-block;
+        }
     }
 
     .wrapper {
@@ -127,68 +144,24 @@ header {
     }
 }
 
-main {
+.portfolio {
+    padding: 100px 10px;
+
+    &:nth-of-type(odd) {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        background-color: #f8f8f8;
+    }
+
+    img {
+        width: 100%;
+    }
+
     h2 {
-        color: teal;
+        color: #333;
         display: block;
-        text-align: center;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-    
-    section {
-        .row {
-            margin-top: 50px;
-    
-            &:first-of-type {
-                margin-top: 0px;
-            }
-        }
-    
-        &:nth-child(odd) {
-            // background-color: #f9f9f9;
-        }
-    }
-
-    .item {
-        position: relative;
-        box-shadow: 0px 0px 5px #333;
-
-        &:hover {
-            .desc {
-                opacity: 1;
-                transition: all 0.3s linear;
-            }
-        }
-
-        img {
-            max-width: 100%;
-        }
-
-        .desc {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(#070b16, 0.6);
-            opacity: 0;
-
-            .info {
-                color: #e50914;
-                position: absolute;
-                bottom: 25px;
-                left: 25px;
-                width: calc(100% - 70px);
-                padding: 10px 15px;
-                font-size: 25px;
-                border-left: 5px solid #e50914;
-
-                span {
-                    color: #fff;
-                }
-            }
-        }
+        text-align: left;
+        font-size: 30px;
     }
 }
 

@@ -11204,6 +11204,24 @@ header {
   font-size: 22px;
 }
 
+.hero .col-md-12 {
+  text-align: center;
+}
+
+.hero .col-md-12 h1,
+.hero .col-md-12 p {
+  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+.hero .col-md-12 > img {
+  height: 150px;
+  display: inline-block;
+}
+
 .hero .wrapper {
   background-color: #fff;
   border-radius: 5px;
@@ -11227,60 +11245,25 @@ header {
   background-color: #e2e2e2;
 }
 
-main h2 {
-  color: teal;
-  display: block;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
+.portfolio {
+  padding: 100px 10px;
 }
 
-main section .row {
-  margin-top: 50px;
+.portfolio:nth-of-type(odd) {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
 }
 
-main section .row:first-of-type {
-  margin-top: 0px;
-}
-
-main .item {
-  position: relative;
-  box-shadow: 0px 0px 5px #333;
-}
-
-main .item:hover .desc {
-  opacity: 1;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-main .item img {
-  max-width: 100%;
-}
-
-main .item .desc {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.portfolio img {
   width: 100%;
-  height: 100%;
-  background-color: rgba(7, 11, 22, 0.6);
-  opacity: 0;
 }
 
-main .item .desc .info {
-  color: #e50914;
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  width: calc(100% - 70px);
-  padding: 10px 15px;
-  font-size: 25px;
-  border-left: 5px solid #e50914;
-}
-
-main .item .desc .info span {
-  color: #fff;
+.portfolio h2 {
+  color: #333;
+  display: block;
+  text-align: left;
+  font-size: 30px;
 }
 
 footer {
