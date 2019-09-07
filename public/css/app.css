@@ -11102,16 +11102,12 @@ a.text-dark:focus {
 
 body {
   background-color: #fff;
-  font-family: "Roboto";
+  font-family: "Montserrat";
   overflow-x: hidden;
 }
 
-header {
-  background-color: #24292e;
-}
-
 .navbar {
-  background-color: #24292e !important;
+  background-color: #4683E7 !important;
   padding: 10px 100px;
 }
 
@@ -11128,7 +11124,7 @@ header {
 }
 
 .navbar .nav-link:hover {
-  color: #bbb !important;
+  color: #15c39e !important;
 }
 
 .navbar .language .dropdown-menu {
@@ -11145,129 +11141,26 @@ header {
   margin-right: 10px;
 }
 
-.dropdown-menu {
-  width: 300px;
-}
-
-.dropdown-menu p {
-  color: #222;
-  padding: 10px 20px;
-  margin: 0px;
-}
-
-.dropdown-menu .dropdown-item {
-  color: #888;
-}
-
-.dropdown-menu .dropdown-item:hover {
-  background-color: #fff;
-  color: #0366d6;
-}
-
-.dropdown-menu .dropdown-item::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  margin-right: 10px;
-  position: relative;
-  top: -1px;
-  background-color: #0366d6;
-  display: inline-block;
-  border-radius: 100%;
-}
-
-.dropdown-menu .dropdown-item span {
-  float: right;
-  background-color: #e8e8e8;
-  padding: 0px 5px;
-}
-
 .hero {
-  background: url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg), #2b3137;
-}
-
-.hero .container {
-  padding: 150px 15px;
+  background-color: #4683E7;
+  padding: 150px 0px;
 }
 
 .hero h1 {
-  margin: 0;
   color: #fff;
-  width: 100%;
-  text-align: left;
-  display: block;
-  font-size: 70px;
+  font-weight: bold;
+  font-size: 32px;
 }
 
-.hero p {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 22px;
-}
-
-.hero .col-md-12 {
-  text-align: center;
-}
-
-.hero .col-md-12 h1,
-.hero .col-md-12 p {
-  text-align: center;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 90%;
-}
-
-.hero .col-md-12 > img {
-  height: 150px;
-  display: inline-block;
-}
-
-.hero .wrapper {
-  background-color: #fff;
-  border-radius: 5px;
-  text-align: left;
-  padding: 20px;
-}
-
-.hero .wrapper img {
-  display: inline-block;
-  margin: 10px;
-  height: 70px;
-  padding: 10px;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  cursor: pointer;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-.hero .wrapper img:hover {
-  background-color: #e2e2e2;
-}
-
-.portfolio {
-  padding: 100px 10px;
-}
-
-.portfolio:nth-of-type(odd) {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #f8f8f8;
-}
-
-.portfolio img {
-  width: 100%;
-}
-
-.portfolio h2 {
-  color: #333;
-  display: block;
-  text-align: left;
-  font-size: 30px;
+.hero h2 {
+  color: #eee;
+  font-weight: normal;
+  font-size: 23px;
 }
 
 footer {
-  background-color: #f7f7f7;
+  background-color: #2A3338;
   padding: 50px 0px;
+  color: #fff;
 }
 

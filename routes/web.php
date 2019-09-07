@@ -13,12 +13,12 @@
 
 Route::get('/', function () {
     App::setLocale('pl');
-    return view('pages.index');
+    return view('pages.homepage');
 });
 
 Route::get('/{locale}', function($locale) {
     App::setLocale($locale);
-    return view('pages.index');
+    return view('pages.homepage');
 });
 
 Route::get('/{locale}/{project}', function($locale, $project) {

@@ -1,1 +1,3 @@
-_footer
+<div class="container">
+    Stopka
+</div>
