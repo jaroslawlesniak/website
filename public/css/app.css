@@ -11218,10 +11218,12 @@ body {
   font-size: 32px;
   font-weight: bold;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.main h2:first-of-type {
+.main h2.ignore-margin {
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .main > h3 {
@@ -11313,22 +11315,9 @@ body {
   width: 100%;
 }
 
-.portfolio.same-height .item {
-  max-width: 100%;
-  height: 200px;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.portfolio.same-height .item img {
-  height: 100%;
-  width: auto;
-}
-
 .technologies {
   background-color: #f2f2f2;
-  padding: 100px 0px;
+  padding: 0.1px 0px 100px 0px;
   margin-top: 100px;
 }
 
@@ -11349,6 +11338,51 @@ body {
   display: block;
   width: auto;
   margin: 25px;
+}
+
+.offert i {
+  font-size: 50px;
+  color: #3b3e4d;
+  text-align: center;
+  display: block;
+}
+
+.offert h3 {
+  font-size: 22px;
+  color: #3b3e4d;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.offert p {
+  color: #8c8c8c;
+}
+
+.counts {
+  padding: 100px 0px;
+  background-color: #4683E7;
+  margin-top: 100px;
+}
+
+.counts h2 {
+  color: #fff;
+  margin-bottom: 50px !important;
+}
+
+.counts span {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.counts p {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
 }
 
 footer {

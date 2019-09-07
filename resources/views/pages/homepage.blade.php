@@ -24,7 +24,7 @@
     </div>
     {{-- <div class="container"> --}}
         <div class="main">
-            <h2>Ostatnio ukończone projekty</h2>
+            <h2 class="ignore-margin">Ostatnio ukończone projekty</h2>
             <h3>Strony internetowe</h3>
             <div class="portfolio">
                 <div class="item">
@@ -65,7 +65,49 @@
                 </div>
             </div>
             <h2>Kompletna oferta</h2>
-            <h2>Trochę liczb</h2>
+            <div class="container offert">
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="icon-globe"></i>
+                        <h3>Strony internetowe</h3>
+                        <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="icon-mobile"></i>
+                        <h3>Aplikacje mobilne</h3>
+                        <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="icon-desktop"></i>
+                        <h3>Aplikacje desktopowe</h3>
+                        <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="icon-palette"></i>
+                        <h3>Projekty graficzne</h3>
+                        <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="counts">
+                <h2 class="ignore-margin">Trochę liczb</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span>5</span>
+                            <p>Ukończonych projektów</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span>3</span>
+                            <p>Klientów</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span>20</span>
+                            <p>Wypitych kubków kawy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h2>Skontaktuj się ze mną</h2>
         </div>
     {{-- </div> --}}
