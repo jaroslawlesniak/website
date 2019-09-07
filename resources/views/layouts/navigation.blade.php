@@ -12,19 +12,19 @@
                     <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.homepage')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.webpages')</a>
+                    <a class="nav-link" href="/{{ App::getLocale().'/strony-internetowe' }}">@lang('ui.webpages')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.apps')</a>
+                    <a class="nav-link" href="/{{ App::getLocale().'/aplikacje-mobilne-i-desktopowe' }}">@lang('ui.apps')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.grapchics')</a>
+                    <a class="nav-link" href="/{{ App::getLocale().'/strony-internetowe' }}">@lang('ui.grapchics')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/{{ App::getLocale() }}">CV</a>
+                    <a class="nav-link" href="/{{ App::getLocale().'/strony-internetowe' }}">CV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.contact')</a>
+                    <a class="nav-link" href="/{{ App::getLocale().'/strony-internetowe' }}">@lang('ui.contact')</a>
                 </li>
                 <li class="nav-item dropdown language">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/assets/flags/{{ App::getLocale() }}.png">@lang('ui.current-language')</a>

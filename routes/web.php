@@ -21,7 +21,32 @@ Route::get('/{locale}', function($locale) {
     return view('pages.homepage');
 });
 
-Route::get('/{locale}/{project}', function($locale, $project) {
-    App::setLocale($locale);
-    return view('pages.'.$project);
+Route::get('/pl/strony-internetowe', function() {
+    App::setLocale('pl');
+    return view('pages.webpages');
+});
+
+Route::get('/en/webpages', function() {
+    App::setLocale('en');
+    return view('pages.webpages');
+});
+
+Route::get('/pl/aplikacje-mobilne-i-desktopowe', function() {
+    App::setLocale('pl');
+    return view('pages.apps');
+});
+
+Route::get('/en/mobile-and-desktop-apps', function() {
+    App::setLocale('en');
+    return view('pages.apps');
+});
+
+Route::get('/pl/kontakt', function() {
+    App::setLocale('pl');
+    return view('pages.contact');
+});
+
+Route::get('/en/contact', function() {
+    App::setLocale('en');
+    return view('pages.contact');
 });
