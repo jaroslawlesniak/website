@@ -21,6 +21,9 @@
                     <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.grapchics')</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/{{ App::getLocale() }}">CV</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/{{ App::getLocale() }}">@lang('ui.contact')</a>
                 </li>
                 <li class="nav-item dropdown language">
