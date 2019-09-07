@@ -1,7 +1,12 @@
 
 .icon-link:before { content: '\e800'; } /* '' */
 .icon-globe:before { content: '\e801'; } /* '' */
+.icon-user:before { content: '\e802'; } /* '' */
 .icon-palette:before { content: '\e803'; } /* '' */
+.icon-phone:before { content: '\e804'; } /* '' */
 .icon-right-open:before { content: '\e80d'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-desktop:before { content: '\f108'; } /* '' */
 .icon-mobile:before { content: '\f10b'; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
