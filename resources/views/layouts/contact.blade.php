@@ -1,4 +1,11 @@
 <div class="contact">
+    @if(Session::has('submited'))
+        <div class="form-submited">
+            <div class="container">
+                <i class="icon-ok-circled"></i> Wysłano wiadomość poprzez formularz kontaktowy
+            </div>
+        </div>
+    @endif
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -11,7 +18,8 @@
             </div>
             <div class="col-md-6">
                 <h3>Formularz kontaktowy</h3>
-                <form>
+                <form method="POST" action="{{ '/'.App::getLocale().'/submit-form' }}">
+                    {{ csrf_field() }}
                     <label>Imię i nazwisko<span>*</span><input type="text" name="name" required></label>
                     <label>Adres email<span>*</span><input type="email" name="email" required></label>
                     <label>Nr telefonu<input type="text" name="name" required></label>

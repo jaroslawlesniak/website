@@ -60,3 +60,6 @@ Route::get('/en/contact', function() {
     App::setLocale('en');
     return view('pages.contact');
 });
+
+Route::post('/pl/submit-form', 'ContactForm@submit_pl');
+Route::post('/en/submit-form', 'ContactForm@submit_en');

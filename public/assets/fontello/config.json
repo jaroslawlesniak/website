@@ -101,6 +101,12 @@
       "css": "flag",
       "code": 59399,
       "src": "fontawesome"
+    },
+    {
+      "uid": "43ab845088317bd348dee1d975700c48",
+      "css": "ok-circled",
+      "code": 59400,
+      "src": "fontawesome"
     }
   ]
 }
