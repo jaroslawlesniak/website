@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('hero')
-    <h1>Kontakt</h1>
+    <h1>@lang('ui.contact')</h1>
 @endsection
 
 @section('content')

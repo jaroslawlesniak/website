@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('hero')
-    <h1>Projekty graficzne</h1>
+    <h1>@lang('ui.graphics')</h1>
 @endsection
 
 @section('content')

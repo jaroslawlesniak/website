@@ -1,6 +1,11 @@
 <?php 
 
     return [
-        "title" => "Strony WWW i wiele więcej",
-        "description" => "Zajmuję się tworzeniem i utrzymywaniem aplikacji internetowych, mobilnych oraz desktopowych. Obok znajduję się kompetna lista technologi, z którymi pracuję."
+        'webpages' => 'Strony internetowe',
+        'shops' => 'Sklepy internetowe',
+        'web-apps' => 'Aplikacje internetowe',
+        'mobile-apps' => 'Aplikacje mobilne',
+        'desktop-apps' => 'Aplikacje desktopowe',
+        'graphics' => 'Projekty graficzne',
+        'awarded' => 'Wyróżniony projekt'
     ];
