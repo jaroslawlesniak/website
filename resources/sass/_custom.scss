@@ -19,7 +19,7 @@ body {
         cursor: pointer;
 
         &:hover {
-            color: #15c39e !important;
+            color: #28d3ae !important;
         }
     }
 
@@ -105,6 +105,24 @@ body {
         background-image: url('/assets/images/hero-bg.png');
         height: 250px;
         margin-top: 100px;
+        background-size: 100% 100%;
+    }
+
+    .last-project {
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            max-height: 700px;
+            box-shadow: 0px 0px 5px #333;
+        }
+
+        span {
+            display: block;
+            color: #fff;
+            font-style: italic;
+            margin-top: 10px;
+        }
     }
 }
 
@@ -131,6 +149,10 @@ body {
 
         &.margin-top {
             margin-top: 100px;
+        }
+
+        &.projects {
+            margin-bottom: 50px;
         }
     }
 
@@ -214,6 +236,23 @@ body {
         width: 100%;
         box-shadow: 0px 0px 10px #bbb;
     }
+
+    &.same-height {
+        .item {
+            height: 150px;
+            width: unset;
+            max-width: unset;
+
+            img {
+                width: auto;
+                height: 100%;
+
+                &.padding {
+                    padding: 15px;
+                }
+            }
+        }
+    }
 }
 
 .technologies {
@@ -237,6 +276,8 @@ body {
 }
 
 .offert {
+    text-align: center;
+
     i {
         font-size: 50px;
         color: #3b3e4d;
@@ -251,10 +292,26 @@ body {
         text-align: center;
         margin-bottom: 25px;
         margin-top: 25px;
+        font-weight: bold;
     }
 
     p {
         color: #8c8c8c;
+        margin: 0px;
+    }
+
+    a {
+        margin-top: 25px;
+        padding: 10px 15px;
+        background-color: #15c39e;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: darken(#15c39e, 15);
+        }
     }
 }
 

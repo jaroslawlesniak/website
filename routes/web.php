@@ -41,6 +41,16 @@ Route::get('/en/mobile-and-desktop-apps', function() {
     return view('pages.apps');
 });
 
+Route::get('/pl/projekty-graficzne', function() {
+    App::setLocale('pl');
+    return view('pages.graphic');
+});
+
+Route::get('/en/graphic-projects', function() {
+    App::setLocale('en');
+    return view('pages.graphic');
+});
+
 Route::get('/pl/kontakt', function() {
     App::setLocale('pl');
     return view('pages.contact');

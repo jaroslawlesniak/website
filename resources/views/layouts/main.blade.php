@@ -15,6 +15,7 @@
         @include('layouts/navigation')
     </header>
     <main>
+        @include('layouts.hero')
         @yield('content')
     </main>
     <footer>

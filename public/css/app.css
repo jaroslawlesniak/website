@@ -11124,7 +11124,7 @@ body {
 }
 
 .navbar .nav-link:hover {
-  color: #15c39e !important;
+  color: #28d3ae !important;
 }
 
 .navbar .language .dropdown-menu {
@@ -11205,6 +11205,24 @@ body {
   background-image: url("/assets/images/hero-bg.png");
   height: 250px;
   margin-top: 100px;
+  background-size: 100% 100%;
+}
+
+.hero .last-project {
+  text-align: center;
+}
+
+.hero .last-project img {
+  max-width: 100%;
+  max-height: 700px;
+  box-shadow: 0px 0px 5px #333;
+}
+
+.hero .last-project span {
+  display: block;
+  color: #fff;
+  font-style: italic;
+  margin-top: 10px;
 }
 
 .main {
@@ -11232,6 +11250,10 @@ body {
 
 .main h2.margin-top {
   margin-top: 100px;
+}
+
+.main h2.projects {
+  margin-bottom: 50px;
 }
 
 .main > h3 {
@@ -11324,6 +11346,21 @@ body {
   box-shadow: 0px 0px 10px #bbb;
 }
 
+.portfolio.same-height .item {
+  height: 150px;
+  width: unset;
+  max-width: unset;
+}
+
+.portfolio.same-height .item img {
+  width: auto;
+  height: 100%;
+}
+
+.portfolio.same-height .item img.padding {
+  padding: 15px;
+}
+
 .technologies {
   background-color: #f2f2f2;
   padding: 0.1px 0px 100px 0px;
@@ -11349,6 +11386,10 @@ body {
   margin: 25px;
 }
 
+.offert {
+  text-align: center;
+}
+
 .offert i {
   font-size: 50px;
   color: #3b3e4d;
@@ -11363,10 +11404,26 @@ body {
   text-align: center;
   margin-bottom: 25px;
   margin-top: 25px;
+  font-weight: bold;
 }
 
 .offert p {
   color: #8c8c8c;
+  margin: 0px;
+}
+
+.offert a {
+  margin-top: 25px;
+  padding: 10px 15px;
+  background-color: #15c39e;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.offert a:hover {
+  background-color: #0e7e66;
 }
 
 .counts {

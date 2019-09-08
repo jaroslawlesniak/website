@@ -1,12 +1,10 @@
 @extends('layouts.main')
 
+@section('hero')
+    <h1>Aplikacje mobilne i desktopowe</h1>
+@endsection
+
 @section('content')
-    <div class="hero">
-        <div class="container">
-            <h1>Aplikacje mobilne i desktopowe</h1>
-        </div>
-        <div class="background"></div>
-    </div>
     <div class="main">
         <div class="container">
             <h2 class="ignore-margin offert-header">Oferta</h2>

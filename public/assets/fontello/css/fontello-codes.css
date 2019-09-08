@@ -5,10 +5,13 @@
 .icon-palette:before { content: '\e803'; } /* '' */
 .icon-phone:before { content: '\e804'; } /* '' */
 .icon-basket:before { content: '\e805'; } /* '' */
+.icon-vcard:before { content: '\e806'; } /* '' */
+.icon-flag:before { content: '\e807'; } /* '' */
 .icon-right-open:before { content: '\e80d'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-desktop:before { content: '\f108'; } /* '' */
 .icon-mobile:before { content: '\f10b'; } /* '' */
 .icon-cubes:before { content: '\f1b3'; } /* '' */
+.icon-diamond:before { content: '\f219'; } /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; } /* '' */
