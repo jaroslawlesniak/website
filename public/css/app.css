@@ -11357,10 +11357,6 @@ body {
   height: 100%;
 }
 
-.portfolio.same-height .item img.padding {
-  padding: 15px;
-}
-
 .technologies {
   background-color: #f2f2f2;
   padding: 0.1px 0px 100px 0px;
@@ -11566,6 +11562,29 @@ footer p a {
 
 footer i {
   margin-right: 10px;
+}
+
+.portfolio-page {
+  text-align: center;
+}
+
+.portfolio-page .portfolio-btn {
+  background-color: #15c39e;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-top: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.portfolio-page .portfolio-btn:hover {
+  background-color: #0e7e66;
+}
+
+.portfolio-page img {
+  max-width: 100%;
+  box-shadow: 0px 0px 10px #bbb;
 }
 
 .form-submited > .container {

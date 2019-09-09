@@ -1,5 +1,7 @@
 @extends('layouts/main')
 
+@section('title', __('title.homepage'))
+
 @section('hero')
     <div class="row">
         <div class="col-md-6">
@@ -69,21 +71,21 @@
             <div class="item">
                 <img src="/assets/portfolio/inox-railing.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
             <div class="item">
                 <img src="/assets/portfolio/sifa.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/sifa"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
             <div class="item">
                 <img src="/assets/portfolio/smartme.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>

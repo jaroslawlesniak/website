@@ -63,3 +63,8 @@ Route::get('/en/contact', function() {
 
 Route::post('/pl/submit-form', 'ContactForm@submit_pl');
 Route::post('/en/submit-form', 'ContactForm@submit_en');
+
+Route::get('/{locale}/portfolio/{project}', function($locale, $project) {
+    App::setLocale($locale);
+    return view('pages.portfolio')->with('project', $project);
+});

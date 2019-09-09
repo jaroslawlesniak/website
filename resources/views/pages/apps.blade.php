@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', __('title.apps'))
+
 @section('hero')
     <h1>@lang('ui.apps')</h1>
 @endsection
@@ -30,16 +32,16 @@
         <h3>@lang('ui.apps')</h3>
         <div class="portfolio">
             <div class="item">
-                <img src="/assets/portfolio/schedule.png">
+                <img src="/assets/portfolio/schedule.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/schedule"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.progressive')</h3>
                 </div>
             </div>
             <div class="item">
-                <img src="/assets/portfolio/league-parser.png">
+                <img src="/assets/portfolio/league-parser.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/league-parser"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.mobile')</h3>
                 </div>
             </div>

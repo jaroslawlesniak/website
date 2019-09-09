@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', __('title.graphics'))
+
 @section('hero')
     <h1>@lang('ui.graphics')</h1>
 @endsection
@@ -31,14 +33,14 @@
             <div class="item">
                 <img class="padding" src="/assets/portfolio/amdar.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/amdar"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.logo')</h3>
                 </div>
             </div>
             <div class="item">
                 <img src="/assets/portfolio/inox-railing-wizytowka.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
+                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing-wizytowka"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.card')</h3>
                 </div>
             </div>

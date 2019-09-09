@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', __('title.webpages'))
+
 @section('hero')
     <h1>@lang('hero.webpages')</h1>
 @endsection
@@ -31,22 +33,22 @@
             <div class="item">
                 <img src="/assets/portfolio/inox-railing.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
-                    <h3>@lang('content.projects.webpage')</h3>
+                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
+                    <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
             <div class="item">
                 <img src="/assets/portfolio/sifa.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
-                    <h3>@lang('content.projects.webpage')</h3>
+                    <a href="/{{ App::getLocale() }}/portfolio/sifa"><i class="icon-link"></i></a>
+                    <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
             <div class="item">
                 <img src="/assets/portfolio/smartme.jpg">
                 <div class="opacity">
-                    <i class="icon-link"></i>
-                    <h3>@lang('content.projects.webpage')</h3>
+                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
+                    <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
         </div>

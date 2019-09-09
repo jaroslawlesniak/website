@@ -49,5 +49,7 @@
         'project.mobile' => 'Aplikacja mobilna',
         'project.progressive' => 'Aplikacja progresywna',
         'project.logo' => 'Logo',
-        'project.card' => 'Wizytówka'
+        'project.card' => 'Wizytówka',
+        'view-online' => 'Zobacz online',
+        'download' => 'Pobierz'
     ];
