@@ -5,7 +5,7 @@
         'inox-railing.desc' => 'Ad qui in fugiat sint esse commodo dolore eiusmod officia. Pariatur elit incididunt cupidatat irure sit tempor qui Lorem exercitation officia esse amet ut proident. Cillum proident esse duis amet nisi.',
         'inox-railing.url' => 'http://inox-railing.pl',
         'inox-railing.download' => '',
-        'sifa.title' => 'Strona internetowa organizacji AUC',
+        'sifa.title' => 'Strona internetowa projektu "Skills Initiative for Africa"',
         'sifa.desc' => 'Ad qui in fugiat sint esse commodo dolore eiusmod officia. Pariatur elit incididunt cupidatat irure sit tempor qui Lorem exercitation officia esse amet ut proident. Cillum proident esse duis amet nisi.',
         'sifa.url' => 'https://skillsafrica.org/',
         'sifa.download' => '',
