@@ -33,5 +33,21 @@
         'offert.webpages-title' => 'Excepteur dolor nostrud nisi sit do adipisicing sit nostrud enim.',
         'offert.shops-title' => 'Laboris dolore proident labore elit elit eiusmod occaecat laborum id sit est proident.',
         'offert.webapps-title' => 'Proident elit tempor duis adipisicing qui nostrud consequat.',
-        'project.webpage' => 'Strona internetowa'
+        'offert.progressive' => "Aplikacje progresywne",
+        'offert.mobile' => 'Aplikacje mobilne',
+        'offert.desktop' => 'Aplikacje dekstopowe',
+        'offert.progressive-desc' => "Ad et laboris est fugiat ex quis dolor id ullamco officia in.",
+        'offert.mobile-desc' => 'Nisi id ea duis aute cupidatat pariatur Lorem elit ipsum consequat.',
+        'offert.desktop-desc' => 'Elit id voluptate minim commodo consectetur cillum est proident occaecat excepteur Lorem irure aliqua.',
+        'offert.logo' => "Loga",
+        'offert.card' => 'Wizytówki',
+        'offert.baner' => 'Banery reklamowe',
+        'offert.logo-desc' => "Ad et laboris est fugiat ex quis dolor id ullamco officia in.",
+        'offert.card-desc' => 'Nisi id ea duis aute cupidatat pariatur Lorem elit ipsum consequat.',
+        'offert.baner-desc' => 'Elit id voluptate minim commodo consectetur cillum est proident occaecat excepteur Lorem irure aliqua.',
+        'project.webpage' => 'Strona internetowa',
+        'project.mobile' => 'Aplikacja mobilna',
+        'project.progressive' => 'Aplikacja progresywna',
+        'project.logo' => 'Logo',
+        'project.card' => 'Wizytówka'
     ];

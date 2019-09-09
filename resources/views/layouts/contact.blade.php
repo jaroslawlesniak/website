@@ -25,7 +25,7 @@
                     <label>@lang('content.tel')<input type="text" name="name" required></label>
                     <label>@lang('content.title')<span>*</span><input type="text" name="title" required></label>
                     <label>@lang('content.content')<span>*</span><textarea name="message"></textarea></label>
-                    <button type="submit">@lang('content.submit')</button>
+                    <button type="submit">@lang('content.send')</button>
                 </form>
             </div>
         </div>

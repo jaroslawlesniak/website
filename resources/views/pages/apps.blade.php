@@ -7,43 +7,43 @@
 @section('content')
     <div class="main">
         <div class="container">
-            <h2 class="ignore-margin offert-header">Oferta</h2>
+            <h2 class="ignore-margin offert-header">@lang('content.offert')</h2>
             <div class="row offert">
                 <div class="col-md-4">
                     <i class="icon-globe"></i>
-                    <h3>Aplikacje progresywne</h3>
-                    <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    <h3>@lang('content.offert.progressive')</h3>
+                    <p>@lang('content.offert.progressive-desc')</p>
                 </div>
                 <div class="col-md-4">
                     <i class="icon-mobile"></i>
-                    <h3>Aplikacje mobilne</h3>
-                    <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    <h3>@lang('content.offert.mobile')</h3>
+                    <p>@lang('content.offert.mobile-desc')</p>
                 </div>
                 <div class="col-md-4">
                     <i class="icon-desktop"></i>
-                    <h3>Aplikacje desktopowe</h3>
-                    <p>Voluptate aliquip non Lorem enim esse sit eu nisi. Minim aliquip consequat ex sunt deserunt.</p>
+                    <h3>@lang('content.offert.desktop')</h3>
+                    <p>@lang('content.offert.desktop-desc')</p>
                 </div>
             </div>
         </div>
-        <h2 class="ignore-margin margin-top">Ukończone projekty</h2>
-        <h3>Aplikacje mobilne i progesywne</h3>
+        <h2 class="ignore-margin margin-top">@lang('content.finished-projects')</h2>
+        <h3>@lang('ui.apps')</h3>
         <div class="portfolio">
             <div class="item">
                 <img src="/assets/portfolio/schedule.png">
                 <div class="opacity">
                     <i class="icon-link"></i>
-                    <h3>Aplikacja progresywna</h3>
+                    <h3>@lang('content.project.progressive')</h3>
                 </div>
             </div>
             <div class="item">
                 <img src="/assets/portfolio/league-parser.png">
                 <div class="opacity">
                     <i class="icon-link"></i>
-                    <h3>Aplikacja mobilna</h3>
+                    <h3>@lang('content.project.mobile')</h3>
                 </div>
             </div>
         </div>
-        <h3>Aplikacje desktopowe</h3>
+        <h3>@lang('hero.desktop-apps')</h3>
     </div>
 @endsection
