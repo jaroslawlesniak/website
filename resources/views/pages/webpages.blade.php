@@ -31,9 +31,16 @@
         <h2 class="projects">@lang('content.finished-projects')</h2>
         <div class="portfolio">
             <div class="item">
-                <img src="/assets/portfolio/inox-railing.jpg">
+                <img src="/assets/portfolio/homepage.jpg">
                 <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
+                    <a href="/{{ App::getLocale() }}/portfolio/homepage"><i class="icon-link"></i></a>
+                    <h3>@lang('content.project.webpage')</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/assets/portfolio/smartme.jpg">
+                <div class="opacity">
+                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
@@ -45,9 +52,9 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/assets/portfolio/smartme.jpg">
+                <img src="/assets/portfolio/inox-railing.jpg">
                 <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
+                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>

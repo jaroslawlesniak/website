@@ -124,6 +124,15 @@ body {
             margin-top: 10px;
         }
     }
+
+    .awarded {
+        color: #fff;
+        text-decoration: underline;
+
+        &:hover {
+            color: #28d3ae;
+        }
+    }
 }
 
 .main {
@@ -177,7 +186,7 @@ body {
 
 .portfolio {
     display: flex;
-    flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
     align-items: flex-start;
     justify-content: center;
 

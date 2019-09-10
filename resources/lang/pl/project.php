@@ -28,5 +28,9 @@
         'inox-railing-wizytowka.title' => 'Wizytówka firmy INOX-RAILING',
         'inox-railing-wizytowka.desc' => 'Ad qui in fugiat sint esse commodo dolore eiusmod officia. Pariatur elit incididunt cupidatat irure sit tempor qui Lorem exercitation officia esse amet ut proident. Cillum proident esse duis amet nisi.',
         'inox-railing-wizytowka.url' => '',
-        'inox-railing-wizytowka.download' => ''
+        'inox-railing-wizytowka.download' => '',
+        'homepage.title' => 'Strona domowa jaroslawlesniak.pl',
+        'homepage.desc' => 'Ad qui in fugiat sint esse commodo dolore eiusmod officia. Pariatur elit incididunt cupidatat irure sit tempor qui Lorem exercitation officia esse amet ut proident. Cillum proident esse duis amet nisi.',
+        'homepage.url' => 'https://jaroslawlesniak.pl',
+        'homepage.download' => ''
     ];

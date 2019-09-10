@@ -11225,6 +11225,15 @@ body {
   margin-top: 10px;
 }
 
+.hero .awarded {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.hero .awarded:hover {
+  color: #28d3ae;
+}
+
 .main {
   padding: 50px 0px 100px 0px;
 }
@@ -11278,8 +11287,8 @@ body {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-          flex-flow: row-reverse wrap;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
   -webkit-box-align: start;
           align-items: flex-start;
   -webkit-box-pack: center;

@@ -15,7 +15,7 @@
         </div>
         <div class="col-md-6 last-project">
             <img src="/assets/portfolio/sifa.jpg">
-            <span>@lang('hero.awarded'): SIFA</span>
+            <span>@lang('hero.awarded'): <a class="awarded" href="/{{ App::getLocale() }}/portfolio/sifa">SIFA</a></span>
         </div>
     </div>
 @endsection
@@ -69,9 +69,16 @@
         <h3>@lang('hero.webpages')</h3>
         <div class="portfolio">
             <div class="item">
-                <img src="/assets/portfolio/inox-railing.jpg">
+                <img src="/assets/portfolio/homepage.jpg">
                 <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
+                    <a href="/{{ App::getLocale() }}/portfolio/homepage"><i class="icon-link"></i></a>
+                    <h3>@lang('content.project.webpage')</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/assets/portfolio/smartme.jpg">
+                <div class="opacity">
+                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
@@ -83,9 +90,9 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/assets/portfolio/smartme.jpg">
+                <img src="/assets/portfolio/inox-railing.jpg">
                 <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
+                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
@@ -95,7 +102,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span>7</span>
+                        <span>8</span>
                         <p>@lang('content.finished')</p>
                     </div>
                     <div class="col-md-4">

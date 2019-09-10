@@ -12,8 +12,7 @@
 */
 
 Route::get('/', function () {
-    App::setLocale('pl');
-    return view('pages.homepage');
+    return redirect('/pl');
 });
 
 Route::get('/{locale}', function($locale) {
