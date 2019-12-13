@@ -31,20 +31,24 @@
         <h2 class="ignore-margin margin-top">@lang('content.finished-projects')</h2>
         <h3>@lang('ui.apps')</h3>
         <div class="portfolio">
-            <div class="item">
-                <img src="/assets/portfolio/league-parser.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/league-parser"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.mobile')</h3>
+            <a href="/{{ App::getLocale() }}/portfolio/league-parser">
+                <div class="item">
+                    <img src="/assets/portfolio/league-parser.jpg">
+                    <div class="opacity">
+                    <i class="icon-link"></i>
+                        <h3>@lang('content.project.mobile')</h3>
+                    </div>  
                 </div>
-            </div>
-            <div class="item">
-                <img src="/assets/portfolio/schedule.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/schedule"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.progressive')</h3>
+            </a>
+            <a href="/{{ App::getLocale() }}/portfolio/schedule">
+                <div class="item">
+                    <img src="/assets/portfolio/schedule.jpg">
+                    <div class="opacity">
+                        <i class="icon-link"></i>
+                        <h3>@lang('content.project.progressive')</h3>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <h3>@lang('hero.desktop-apps')</h3>
     </div>

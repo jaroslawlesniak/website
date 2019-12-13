@@ -30,33 +30,51 @@
         </div>
         <h2 class="projects">@lang('content.finished-projects')</h2>
         <div class="portfolio">
-            <div class="item">
-                <img src="/assets/portfolio/homepage.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/homepage"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
+            <a href="/{{ App::getLocale() }}/portfolio/itad-2020">
+                <div class="item">
+                    <img src="/assets/portfolio/itad-2020.jpg">
+                    <div class="opacity">
+                        <i class="icon-link"></i>
+                        <h3>@lang('content.project.webpage')</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="/assets/portfolio/smartme.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="/assets/portfolio/sifa.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/sifa"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="/assets/portfolio/inox-railing.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
-                </div>
+                </a>
+                <a href="/{{ App::getLocale() }}/portfolio/homepage">
+                    <div class="item">
+                        <img src="/assets/portfolio/homepage.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/{{ App::getLocale() }}/portfolio/smartme">
+                    <div class="item">
+                        <img src="/assets/portfolio/smartme.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/{{ App::getLocale() }}/portfolio/sifa">
+                    <div class="item">
+                        <img src="/assets/portfolio/sifa.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/{{ App::getLocale() }}/portfolio/inox-railing">
+                    <div class="item">
+                        <img src="/assets/portfolio/inox-railing.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

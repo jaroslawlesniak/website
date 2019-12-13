@@ -68,34 +68,42 @@
         <h2 class="ignore-margin margin-top">@lang('content.last-projects')</h2>
         <h3>@lang('hero.webpages')</h3>
         <div class="portfolio">
+            <a href="/{{ App::getLocale() }}/portfolio/itad-2020">
             <div class="item">
-                <img src="/assets/portfolio/homepage.jpg">
+                <img src="/assets/portfolio/itad-2020.jpg">
                 <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/homepage"><i class="icon-link"></i></a>
+                    <i class="icon-link"></i>
                     <h3>@lang('content.project.webpage')</h3>
                 </div>
             </div>
-            <div class="item">
-                <img src="/assets/portfolio/smartme.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/smartme"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
+            </a>
+            <a href="/{{ App::getLocale() }}/portfolio/homepage">
+                <div class="item">
+                    <img src="/assets/portfolio/homepage.jpg">
+                    <div class="opacity">
+                        <i class="icon-link"></i>
+                        <h3>@lang('content.project.webpage')</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="/assets/portfolio/sifa.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/sifa"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
+            </a>
+            <a href="/{{ App::getLocale() }}/portfolio/smartme">
+                <div class="item">
+                    <img src="/assets/portfolio/smartme.jpg">
+                    <div class="opacity">
+                        <i class="icon-link"></i>
+                        <h3>@lang('content.project.webpage')</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="/assets/portfolio/inox-railing.jpg">
-                <div class="opacity">
-                    <a href="/{{ App::getLocale() }}/portfolio/inox-railing"><i class="icon-link"></i></a>
-                    <h3>@lang('content.project.webpage')</h3>
+            </a>
+            <a href="/{{ App::getLocale() }}/portfolio/sifa">
+                <div class="item">
+                    <img src="/assets/portfolio/sifa.jpg">
+                    <div class="opacity">
+                        <i class="icon-link"></i>
+                        <h3>@lang('content.project.webpage')</h3>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="counts">
             <h2 class="ignore-margin">@lang('content.counts')</h2>
@@ -106,11 +114,11 @@
                         <p>@lang('content.finished')</p>
                     </div>
                     <div class="col-md-4">
-                        <span>3</span>
-                        <p>@lang('content.clients')</p>
+                        <span>7</span>
+                        <p>@lang('content.technologies-amount')</p>
                     </div>
                     <div class="col-md-4">
-                        <span>20</span>
+                        <span>25</span>
                         <p>@lang('content.coffe')</p>
                     </div>
                 </div>
