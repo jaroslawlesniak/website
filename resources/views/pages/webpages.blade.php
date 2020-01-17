@@ -29,15 +29,33 @@
             </div>
         </div>
         <h2 class="projects">@lang('content.finished-projects')</h2>
-        <div class="portfolio">
-            <a href="/{{ App::getLocale() }}/portfolio/itad-2020">
-                <div class="item">
-                    <img src="/assets/portfolio/itad-2020.jpg">
-                    <div class="opacity">
-                        <i class="icon-link"></i>
-                        <h3>@lang('content.project.webpage')</h3>
+            <div class="portfolio">
+                <a href="/{{ App::getLocale() }}/portfolio/notes">
+                    <div class="item">
+                        <img src="/assets/portfolio/notes.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
                     </div>
-                </div>
+                </a>
+                <a href="/{{ App::getLocale() }}/portfolio/florencja">
+                    <div class="item">
+                        <img src="/assets/portfolio/florencja.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/{{ App::getLocale() }}/portfolio/itad-2020">
+                    <div class="item">
+                        <img src="/assets/portfolio/itad-2020.jpg">
+                        <div class="opacity">
+                            <i class="icon-link"></i>
+                            <h3>@lang('content.project.webpage')</h3>
+                        </div>
+                    </div>
                 </a>
                 <a href="/{{ App::getLocale() }}/portfolio/homepage">
                     <div class="item">

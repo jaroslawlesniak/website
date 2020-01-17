@@ -14,8 +14,11 @@
             <h2><i class="icon-right-open"></i>@lang('hero.graphics')</h2>
         </div>
         <div class="col-md-6 last-project">
-            <img src="/assets/portfolio/sifa.jpg">
-            <span>@lang('hero.awarded'): <a class="awarded" href="/{{ App::getLocale() }}/portfolio/sifa">SIFA</a></span>
+           <img src="/assets/images/jaroslaw_lesniak.jpg">
+           <div class="about">
+           <h2>@lang('hero.about')</h2>
+           <p>@lang('hero.about-desc')</p>
+           </div>
         </div>
     </div>
 @endsection
@@ -62,33 +65,34 @@
                     <img src="/assets/frameworks/wordpress.png" title="Wordpress">
                     <img src="/assets/frameworks/laravel.png" title="Laravel">
                     <img src="/assets/frameworks/mysql.png" title="MySQL">
+                    <img src="/assets/frameworks/electron.png" title="Electron">
                 </div>
             </div>
         </div>
         <h2 class="ignore-margin margin-top">@lang('content.last-projects')</h2>
         <h3>@lang('hero.webpages')</h3>
         <div class="portfolio">
-            <a href="/{{ App::getLocale() }}/portfolio/itad-2020">
-            <div class="item">
-                <img src="/assets/portfolio/itad-2020.jpg">
-                <div class="opacity">
-                    <i class="icon-link"></i>
-                    <h3>@lang('content.project.webpage')</h3>
-                </div>
-            </div>
-            </a>
-            <a href="/{{ App::getLocale() }}/portfolio/homepage">
+            <a href="/{{ App::getLocale() }}/portfolio/notes">
                 <div class="item">
-                    <img src="/assets/portfolio/homepage.jpg">
+                    <img src="/assets/portfolio/notes.jpg">
+                    <div class="opacity">
+                        <i class="icon-link"></i>
+                        <h3>@lang('content.project.webapp')</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="/{{ App::getLocale() }}/portfolio/florencja">
+                <div class="item">
+                    <img src="/assets/portfolio/florencja.jpg">
                     <div class="opacity">
                         <i class="icon-link"></i>
                         <h3>@lang('content.project.webpage')</h3>
                     </div>
                 </div>
             </a>
-            <a href="/{{ App::getLocale() }}/portfolio/smartme">
+            <a href="/{{ App::getLocale() }}/portfolio/itad-2020">
                 <div class="item">
-                    <img src="/assets/portfolio/smartme.jpg">
+                    <img src="/assets/portfolio/itad-2020.jpg">
                     <div class="opacity">
                         <i class="icon-link"></i>
                         <h3>@lang('content.project.webpage')</h3>
@@ -110,7 +114,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span>8</span>
+                        <span>9</span>
                         <p>@lang('content.finished')</p>
                     </div>
                     <div class="col-md-4">

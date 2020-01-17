@@ -108,29 +108,27 @@ body {
         background-size: 100% 100%;
     }
 
-    .last-project {
-        text-align: center;
-
-        img {
-            max-width: 100%;
-            max-height: 700px;
-            box-shadow: 0px 0px 5px #333;
-        }
-
-        span {
-            display: block;
-            color: #fff;
-            font-style: italic;
-            margin-top: 10px;
-        }
+    img {
+        max-width: 100%;
+        max-height: 200px;
+        box-shadow: unset;
+        margin: 0 auto;
+        display: block;
+        border-radius: 100%;
     }
 
-    .awarded {
-        color: #fff;
-        text-decoration: underline;
+    .about {
+        text-align: center;
 
-        &:hover {
-            color: #28d3ae;
+        h2 {
+            margin: 25px 0px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #fff;
+            font-size: 18px;
         }
     }
 }
@@ -178,7 +176,7 @@ body {
     }
 
     p {
-        color: #8c8c8c;
+        color: #000;
         text-align: center;
         font-size: 16px;
     }
@@ -489,4 +487,18 @@ footer {
     background-color: #3cca3c;
     color: #fff;
     border-radius: 10px;
+}
+
+.usage {
+    margin-top: 35px;
+
+    img {
+        box-shadow: unset;
+        height: 40px;
+        margin: 10px;
+    }
+
+    i {
+        display: block;
+    }
 }
