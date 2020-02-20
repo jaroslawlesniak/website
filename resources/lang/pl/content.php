@@ -8,7 +8,7 @@
         'mobile-desc' => 'Tworzę aplikacje mobilne oraz progresywne',
         'desktop-desc' => 'Wykorzystując nowoczesne technologie tworzę aplikacje uruchamiane na wszystkich systemach operacyjnych',
         'graphic-desc' => 'Czasami lubię popracować z prostymi projektami graficznymi',
-        'technologies' => 'Technologie z którymi pracuję',
+        'technologies' => 'Technologie z których korzystam',
         'last-projects' => 'Ostatnio ukończone projekty',
         'finished-projects' => 'Ukończone projekty',
         'counts' => 'Kilka liczb',

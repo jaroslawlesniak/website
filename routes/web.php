@@ -67,3 +67,7 @@ Route::get('/{locale}/portfolio/{project}', function($locale, $project) {
     App::setLocale($locale);
     return view('pages.portfolio')->with('project', $project);
 });
+
+Route::get('/pl/cv', function() {
+    return redirect('/assets/files/CV_Jarosław_Leśniak_pl.pdf');
+});

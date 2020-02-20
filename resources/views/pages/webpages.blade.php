@@ -35,7 +35,7 @@
                         <img src="/assets/portfolio/notes.jpg">
                         <div class="opacity">
                             <i class="icon-link"></i>
-                            <h3>@lang('content.project.webpage')</h3>
+                            <h3>@lang('content.project.webapp')</h3>
                         </div>
                     </div>
                 </a>

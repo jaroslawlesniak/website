@@ -14,7 +14,7 @@
         'smartme.url' => 'http://dev.markornet.com/Craft/smartme2/web/',
         'smartme.download' => '',
         'schedule.title' => 'Plan zajęć PK',
-        'schedule.desc' => 'Przygotowałem prostą aplikację progresywną służącą do zarządzania planem zajęć. Użytkownik może wybrać swoją grupę a następnie skonfigurować wszystkie zajęcia, które będą następnie wyświetlane na głównym ekranie aplikacji.',
+        'schedule.desc' => 'Przygotowałem prostą aplikację progresywną służącą do zarządzania planem zajęć. Użytkownik może wybrać swoją grupę a następnie skonfigurować wszystkie zajęcia, które będą następnie wyświetlane na głównym ekranie aplikacji. Aplikacja cały czas działa pomimo braku połączenia z internetem.',
         'schedule.url' => 'https://app.jaroslawlesniak.pl/schedule',
         'schedule.download' => '',
         'league-parser.title' => 'Aplikacja mobilna serwisu 90minut.pl',
@@ -34,7 +34,7 @@
         'homepage.url' => 'https://jaroslawlesniak.pl',
         'homepage.download' => '',
         'itad-2020.title' => 'Witryna internetowa konferencji ITAD 2020',
-        'itad-2020.desc' => 'Mocno odświeżyłem witrynę konferencji z poprzedniego roku. Na stronie głównej znajdują się wszystkie najważniejsze informacje dotyczące konferencj ITAD 2020.<div class="usage"><i>Wykorzystane technologie</i><img src="/assets/frameworks/react.png" title="React"></div>',
+        'itad-2020.desc' => 'Mocno odświeżyłem witrynę konferencji z poprzedniego roku. Na stronie głównej znajdują się wszystkie najważniejsze informacje dotyczące ITAD\'a 2020.<div class="usage"><i>Wykorzystane technologie</i><img src="/assets/frameworks/react.png" title="React"></div>',
         'itad-2020.url' => 'https://itad-pk.github.io',
         'itad-2020.download' => '',
         'florencja.title' => 'Witryna internetowa restauracji Florencja Resto & Bankiet',
@@ -42,7 +42,7 @@
         'florencja.url' => 'https://florencja.com.pl',
         'florencja.download' => '',
         'notes.title' => 'Aplikacja do zarządzania notatkami',
-        'notes.desc' => 'Stworzyłem prostą aplikację napisaną przy pomocy React\'a, która możliwia tworzenie i zarządzanie notatkami.<div class="usage"><i>Wykorzystane technologie</i><img src="/assets/frameworks/react.png" title="React"></div>',
+        'notes.desc' => 'Stworzyłem prostą aplikację napisaną przy pomocy React\'a, która umożliwia tworzenie i zarządzanie notatkami.<div class="usage"><i>Wykorzystane technologie</i><img src="/assets/frameworks/react.png" title="React"></div>',
         'notes.url' => 'https://app.jaroslawlesniak.pl/notes',
         'notes.download' => ''
     ];
